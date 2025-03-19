@@ -1,16 +1,17 @@
 {
+  "homepage": "https://Mahir-Bajole.github.io/FrontEnd_Ecommerce",
   "name": "ecommerceproject",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Mahir-Bajole.github.io/Ecommerce_Frontend_using_React",
+  
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist" 
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.13",
